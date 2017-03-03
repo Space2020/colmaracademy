@@ -1,12 +1,21 @@
 /* COLMARACADEMY */
 
-/* HEADER SECTION */
+
+/* Global */
 
 html{
   font-size: 16px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,600,700,900');
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+/* HEADER SECTION */
 
 
 .header{
@@ -15,7 +24,7 @@ html{
   justify-content: space-between;
   height: 4rem;
   margin: 0 1.5rem;
-  align-items: baseline;
+  align-items: center;
 }
 
 .logo h1, img{
@@ -38,15 +47,153 @@ html{
   color: rgb(75, 76, 81);
 }
 
+.header li a{
+  color: rgb(75, 76, 81);
+  text-decoration: none;
+}
+
+.header li a:hover{
+  text-decoration: underline;
+}
+
 .header h1{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    color: rgb(176, 181, 196);
+    color: rgb(155, 155, 155);
     font-size: 2.375rem;
   }
 
 span{
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  color: rgb(75, 76, 81);
+  color: rgb(74, 74, 74);
+}
+
+
+
+
+/* BANNER SECTION */
+
+.banner img{
+  margin: 2rem 2.5rem 2rem 1.5rem;
+  width: 40.625rem;
+}
+
+.banner{
+  background-color: #d8d8d8;
+  display: flex;
+  align-items: center;
+}
+
+.content h1{
+  font-family: 'Lato', sans-serif;
+  font-size: 3.75rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
+  color: rgb(74, 74, 74);
+}
+
+.content p{
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 2.35rem;
+  font-size: 1.75rem;
+  color: rgb(74, 74, 74);
+}
+
+
+/* Banner Button */
+
+#start-btn{
+  color: rgb(255, 255, 255);
+  background-color: rgb(74, 74, 74);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 80%;
+  text-align: center;
+}
+
+
+
+/* Main Section */
+
+/* Left Side Info */
+
+.main{
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+.main .res-info img{
+  width: 40.625rem;
+  margin: 2rem 1.5rem;
+}
+
+.main .container h2{
+  font-size: 2.3rem;
+  color: rgb(74, 74, 74);
+  font-weight: bold;
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.main .container p{
+  margin-left: 1.5rem;
+  margin-bottom: 2.5rem;
+  max-width: 40.625rem;
+  font-size: 1rem;
+  color: rgb(74, 74, 74);
+  font-weight: lighter;
+  line-height: 1.4;
+}
+
+.main .container h6{
+  margin-left: 1.5rem;
+  padding-bottom: 3.5rem;
+  color: rgb(74, 74, 74);
+}
+
+/* Right Side Info */
+
+
+.info-boxes{
+  margin-top: 1.5rem;
+}
+
+.info-boxes .content{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-left: 1px solid rgb(216, 216, 216);
+  border-bottom: 1px solid rgb(216, 216, 216);
+  text-align: left;
+}
+
+.main .content img{
+  width: 10rem;
+  padding: 1rem;
+}
+
+.content h3{
+  font-size: 2rem;
+  color: rgb(74, 74, 74);
+  font-weight: bold;
+  padding-bottom: 1rem
+}
+
+.content h4{
+  font-size: 1rem;
+  color: rgb(74, 74, 74);
+  font-weight: lighter;
+  padding-bottom: 1rem
+}
+
+.content a{
+  font-size: 1rem;
+  font-weight: lighter;
+  color: rgb(74, 144, 226);
+  text-decoration: none;
+}
+
+.info-boxes .dark{
+  background-color: rgb(216, 216, 216);
 }
